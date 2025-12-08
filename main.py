@@ -1,6 +1,7 @@
 import Scripts.data_loading as data_loader
 import Scripts.data_cleaning as data_cleaner
 from Scripts.eda import OnlineRetailEDA
+import Scripts.insights as insights
 
 def main():
     
@@ -20,5 +21,8 @@ def main():
     online_retail = OnlineRetailEDA(cleaned_data).run_full_eda()
     # Display the first few rows of the EDA results
     print(online_retail.head())
+
+    # Generate insights report
+    insights.RetailInsights(online_retail).generate_insights()
 
 main()
