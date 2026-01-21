@@ -8,5 +8,7 @@ def data_loading(file_path, sheet):
         return df
     except FileNotFoundError:
         print("❌ Error: File not found. Check the file path.")
+        return None
     except Exception as e:
         print("❌ An error occurred while loading data:", e)
+        return None

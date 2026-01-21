@@ -2,17 +2,24 @@ import Scripts.data_loading as data_loader
 import Scripts.data_cleaning as data_cleaner
 from Scripts.eda import OnlineRetailEDA
 import Scripts.insights as insights
+import os 
 
 def main():
     
+    base_dir = os.getcwd()
+    print(f"Base Directory: {base_dir}")
+    base_dir = os.path.join(base_dir, "Data")
+
+    data_file = os.path.join(base_dir, "OnlineRetail.xlsx")
+
     # Load the data
-    data = data_loader.data_loading(file_path = r"Data\OnlineRetail.xlsx", sheet="OnlineRetail")
+    data = data_loader.data_loading(file_path = data_file, sheet="OnlineRetail")
     
     # Display the first few rows of the dataset
     print(data.head())
 
     # Clean the data
-    cleaned_data = data_cleaner.clean_data(data)
+    cleaned_data = data_cleaner.clean_data(data, base_dir)
 
     # Display the first few rows of the cleaned dataset
     print(cleaned_data.head())

@@ -16,6 +16,13 @@ class OnlineRetailEDA:
 
     def __init__(self, online_retail):
         self.online_retail = online_retail
+        self.create_folder()
+
+    def create_folder(self):
+        import os
+        output_dir = r"Output\charts"
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
 
     # ========= Public grouped EDA functions =========
 
