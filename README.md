@@ -1,149 +1,159 @@
 project:
-  title: "Online Retail Sales Analysis"
+  heading: "**🛒 Online Retail Sales Analysis**"
+  subtitle: "**Data Science Major Project | BCA Specialization in Data Analysis**"
+  separator: "---"
   version: "1.0"
-  status: "Completed"
+  status: "✅ Completed"
+  author: "**Prajwal Itnal (Aspiring Data Analyst)**"
+  github: "[https://github.com/PrajwalItnal](https://github.com/PrajwalItnal)"
+
+overview:
+  heading: "**📝 Project Overview**"
+  separator: "---"
   description: >
-    This project performs an end-to-end data analysis on an Online Retail dataset
-    using Python. It covers data loading, data cleaning, exploratory data analysis
-    (EDA), visualization, and business insights generation. The project follows a
-    modular structure and is fully reproducible.
+    This project performs an end-to-end data analysis on an Online Retail dataset using Python.
+    It covers data loading, rigorous cleaning, exploratory data analysis (EDA), visualization,
+    and business insights generation. The project follows a modular structure and is fully reproducible.
 
 problem_statement:
+  heading: "**❓ Problem Statement**"
+  separator: "---"
   description: >
-    Retail businesses generate large volumes of transactional data. The challenge
-    is to clean this raw data and extract meaningful insights related to customer
-    behavior, product performance, and sales trends that can support business
-    decision-making.
+    Retail businesses generate large volumes of transactional data. The challenge is to clean this raw data
+    and extract meaningful insights related to customer behavior, product performance, and sales trends
+    that can support business decision-making.
 
 objectives:
-  - Load and explore raw retail transaction data
-  - Clean and preprocess the dataset
-  - Handle missing, negative, and invalid values
-  - Perform exploratory data analysis (EDA)
-  - Analyze sales trends over time
-  - Identify top products, customers, and countries
-  - Generate visual and statistical insights
+  heading: "**🎯 Project Objectives**"
+  separator: "---"
+  list:
+    - "Load and explore raw retail transaction data"
+    - "Clean and preprocess the dataset (handling missing, negative, and invalid values)"
+    - "Perform exploratory data analysis (EDA)"
+    - "Analyze sales trends over time"
+    - "Identify top products, customers, and countries"
+    - "Generate visual and statistical insights"
 
 dataset:
+  heading: "**📊 Dataset Information**"
+  separator: "---"
   name: "Online Retail Dataset"
   format: "Excel (.xlsx)"
   description: >
-    The dataset contains transactional records of an online retail store,
-    including invoice details, product information, quantities, prices,
-    customer IDs, and country data.
+    Contains transactional records including invoice details, stock codes, quantities, prices, and customer locations.
   files:
-    - OnlineRetail.xlsx: "Raw dataset (input)"
-    - Cleaned_OnlineRetail.xlsx: "Generated cleaned dataset (ignored in GitHub)"
+    - name: "OnlineRetail.xlsx"
+      type: "Raw input dataset"
+    - name: "Cleaned_OnlineRetail.xlsx"
+      type: "Preprocessed dataset for analysis"
 
 project_structure:
-  Data:
-    description: "Dataset directory"
-    files:
-      - OnlineRetail.xlsx
-  Scripts:
-    description: "Python modules for analysis"
-    files:
-      - data_loading.py: "Loads Excel data using pandas"
-      - data_cleaning.py: "Cleans and preprocesses the dataset"
-      - eda.py: "Performs exploratory data analysis"
-      - insights.py: "Generates business insights"
-  Output:
-    description: "Generated results"
-    Charts:
-      - "Sales trend charts"
-      - "Top products charts"
-      - "Country-wise analysis charts"
-  Jupyter_Notebook:
-    description: "Exploratory and experimental analysis"
-    files:
-      - FirstMainProjectRetail.ipynb
-  Root_Files:
-    - main.py: "Main execution file"
-    - requirements.txt: "List of dependencies"
-    - .gitignore: "Ignored files and folders"
-    - README.md: "Markdown documentation"
-    - README.yml: "YAML documentation"
+  heading: "**📂 Project Structure**"
+  separator: "---"
+  structure: |
+    Online_Retail_Analysis_Main/
+    ├── Data/                       # Dataset directory
+    │   ├── OnlineRetail.xlsx       # Raw dataset
+    │   └── Cleaned_OnlineRetail.xlsx
+    ├── Scripts/                    # Python modules
+    │   ├── data_loading.py         # Pandas loading logic
+    │   ├── data_cleaning.py        # Preprocessing logic
+    │   ├── eda.py                  # Analysis logic
+    │   └── insights.py             # Business logic
+    ├── Output/                     # Results
+    │   └── Charts/                 # Saved Visualizations
+    ├── Jupyter_Notebook/           # Experimental analysis
+    │   └── FirstMainProjectRetail.ipynb
+    ├── main.py                     # Main execution entry point
+    ├── requirements.txt            # List of dependencies
+    └── README.md                   # Documentation
 
-technologies:
-  programming_language: Python
+technologies_libraries:
+  heading: "**🛠️ Technologies & Libraries**"
+  separator: "---"
+  language: "Python 3.9+"
   libraries:
-    pandas: "Data manipulation and analysis"
-    numpy: "Numerical computations"
-    matplotlib: "Data visualization"
-    scipy: "Statistical analysis"
-    openpyxl: "Excel file handling"
-    jupyter: "Notebook-based analysis"
+    - name: "pandas"
+      description: "Data manipulation and analysis"
+    - name: "numpy"
+      description: "Numerical computations"
+    - name: "matplotlib"
+      description: "Data visualization"
+    - name: "scipy"
+      description: "Statistical analysis"
+    - name: "openpyxl"
+      description: "Excel file handling"
+    - name: "jupyter"
+      description: "Notebook-based analysis"
 
-data_cleaning_steps:
-  - Remove records with negative quantity values
-  - Remove records with negative unit prices
-  - Handle missing values
-  - Convert invoice date to datetime format
-  - Create new feature: TotalAmount (Quantity × UnitPrice)
+data_cleaning:
+  heading: "**🧼 Data Cleaning Steps**"
+  separator: "---"
+  steps:
+    - "Remove records with negative quantity values"
+    - "Remove records with negative unit prices"
+    - "Handle missing values in CustomerID and Description"
+    - "Convert invoice date to proper datetime format"
+    - "Create new feature: TotalAmount (Quantity × UnitPrice)"
 
 eda_analysis:
-  - Sales distribution analysis
-  - Product-level analysis
-  - Customer-level analysis
-  - Country-wise sales comparison
-  - Monthly and weekly sales trend analysis
+  heading: "**🔍 EDA Analysis**"
+  separator: "---"
+  sales_distribution: "Revenue breakdown by market"
+  product_level_analysis: "Best selling items and inventory trends"
+  customer_level_analysis: "Purchasing frequency patterns"
+  country_comparison: "UK vs. International revenue contribution"
+  trend_analysis: "Weekly and monthly performance tracking"
 
-visualizations:
-  - Line charts for time-based trends
-  - Bar charts for top products and countries
-  - Aggregated sales plots
-  storage_location: "Output/Charts"
+execution:
+  heading: "**🚀 Execution Steps**"
+  separator: "---"
+  prerequisites:
+    - "Python 3.9 or higher"
+    - "pip package manager"
+  steps_to_run:
+    - step: "Clone the repository"
+      commands:
+        - "git clone https://github.com/PrajwalItnal/Online_Retail_Sales_Analysis.git"
+        - "cd Online_Retail_Analysis_Main"
+    - step: "Install dependencies"
+      commands:
+        - "pip install -r requirements.txt"
+    - step: "Run the main script"
+      commands:
+        - "python main.py"
+  jupyter_notebook:
+    instructions:
+      - "Launch Jupyter by running `jupyter notebook` in your terminal"
+      - "Open `FirstMainProjectRetail.ipynb`"
+      - "Execute cells sequentially using Shift + Enter"
+      - "To run everything at once, select Cell > Run All"
 
 key_insights:
-  - Identification of top-selling products
-  - Countries contributing highest revenue
-  - Customer purchasing frequency patterns
-  - Seasonal and weekly sales trends
-
-execution_steps:
-  prerequisites:
-    - Python 3.9 or higher
-    - pip package manager
-  steps:
-    - step_1: "Clone the GitHub repository"
-      command: "git clone https://github.com/PrajwalItnal/Online_Retail_Sales_Analysis.git"
-    - step_2: "Navigate to the project directory"
-      command: "cd Online_Retail_Analysis_Main"
-    - step_3: "Install required Python libraries"
-      command: "pip install -r requirements.txt"
-    - step_4: "Run the main Python script"
-      command: "python main.py"
-    - step_5: "View generated charts in Output/Charts directory"
-
-git_and_version_control:
-  repository: "GitHub"
-  practices:
-    - Use of .gitignore for clean repository
-    - Exclusion of generated files and caches
-    - Modular and readable commit history
-
-limitations:
-  - Dataset is static and historical
-  - No real-time data processing
-  - No machine learning predictions included
-
-future_scope:
-  - Add predictive sales forecasting
-  - Perform customer segmentation using clustering
-  - Build interactive dashboards using Power BI or Tableau
-  - Automate report generation
+  heading: "**💡 Key Insights**"
+  separator: "---"
+  market_leader: "The UK is the primary market, contributing over £7.3 Million"
+  top_international_performers:
+    - "Netherlands"
+    - "EIRE"
+    - "Germany"
+    - "France"
+  growth_areas:
+    - "Saudi Arabia"
+    - "Czech Republic"
 
 academic_information:
+  heading: "**🎓 Academic Information**"
+  separator: "---"
   project_type: "Major Project"
   course: "Bachelor of Computer Applications (BCA)"
   specialization: "Data Analysis"
-  evaluation_focus:
-    - Data preprocessing
-    - Analysis quality
-    - Code structure
-    - Insight generation
+  focus: "Data preprocessing, Analysis quality, and Insight generation"
 
-author:
-  name: "Prajwal Itnal"
-  role: "Aspiring Data Analyst"
-  github: "https://github.com/PrajwalItnal"
+future_scope:
+  heading: "**🔮 Future Scope**"
+  separator: "---"
+  items:
+    - "Add predictive sales forecasting"
+    - "Perform customer segmentation using K-Means clustering"
+    - "Build interactive dashboards using Power BI or Tableau"
