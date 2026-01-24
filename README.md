@@ -68,23 +68,24 @@ project_structure:
     ├── requirements.txt            # List of dependencies
     └── README.md                   # Documentation
 
-technologies_libraries:
-  heading: "**🛠️ Technologies & Libraries**"
-  separator: "---"
-  language: "Python 3.9+"
-  libraries:
-    - name: "pandas"
-      description: "Data manipulation and analysis"
-    - name: "numpy"
-      description: "Numerical computations"
-    - name: "matplotlib"
-      description: "Data visualization"
-    - name: "scipy"
-      description: "Statistical analysis"
-    - name: "openpyxl"
-      description: "Excel file handling"
-    - name: "jupyter"
-      description: "Notebook-based analysis"
+## 🛠️ Technologies & Libraries
+---
+
+**Language:** Python 3.9+  
+
+**Libraries:**
+- **pandas >= 2.0.0** – Data manipulation and analysis  
+- **numpy >= 1.24.0** – Numerical computations  
+- **matplotlib >= 3.5.0** – Data visualization  
+- **scipy >= 1.10.0** – Statistical analysis  
+- **openpyxl >= 3.1.0** – Excel file handling  
+- **jupyter >= 1.0.0** – Notebook-based analysis  
+- **fonttools >= 4.0.0** – Font support for plotting  
+- **statsmodels >= 0.14.0** – Statistical modeling  
+- **scikit-learn >= 1.3.0** – Machine learning tools  
+- **seaborn >= 0.13.0** – Advanced data visualization  
+- **os** – Operating system utilities for file handling and paths  
+
 
 data_cleaning:
   heading: "**🧼 Data Cleaning Steps**"
@@ -157,3 +158,22 @@ future_scope:
     - "Add predictive sales forecasting"
     - "Perform customer segmentation using K-Means clustering"
     - "Build interactive dashboards using Power BI or Tableau"
+
+---
+
+## ✅ Full Execution Example
+
+```bash
+# Clone repository
+git clone https://github.com/PrajwalItnal/Online_Retail_Sales_Analysis.git
+cd Online_Retail_Analysis_Main
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the main script
+python main.py
+
+# Jupyter Notebook
+jupyter notebook
+# open FirstMainProjectRetail.ipynb and run all cells
