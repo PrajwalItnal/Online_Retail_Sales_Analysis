@@ -1,15 +1,14 @@
 # 🛒 Online Retail Sales Analysis
 
-**Data Science Major Project | BCA Specialization in Data Analysis**  
+### **Data Science Major Project | BCA Specialization in Data Analysis**
 ---
 
-**Version:** 1.0  
-**Status:** ✅ Completed  
-**Author:** **Prajwal Itnal (Aspiring Data Analyst)**  
-**GitHub:** [https://github.com/PrajwalItnal](https://github.com/PrajwalItnal)  
+* **Version:** 1.0
+* **Status:** ✅ Completed
+* **Author:** **Prajwal Itnal** (Aspiring Data Analyst)
+* **GitHub:** [https://github.com/PrajwalItnal](https://github.com/PrajwalItnal)
 
 ---
-
 ## 📝 Project Overview
 ---
 
@@ -149,16 +148,17 @@ jupyter notebook
 ---
 ## 💡 Key Insights
 
-* **Market Leader:** The UK is the primary market, contributing over **£7.3 Million**.
+* **Market Leader:** The **United Kingdom** is the definitive primary market, contributing over **£7.3 Million** in gross revenue.
 * **Top International Performers:**
-    * Netherlands
-    * EIRE
-    * Germany
-    * France
+    * **Netherlands:** Highly efficient market with high average transaction values.
+    * **EIRE:** Strong, consistent volume and frequency.
+    * **Germany & France:** The largest continental European markets by user count.
 * **Growth Areas:**
-    * Saudi Arabia
-    * Czech Republic
-
+    * **Saudi Arabia & Czech Republic:** Emerging markets showing initial traction in the global distribution.
+* **Seasonal Dynamics:**
+   * Sales peak exponentially in **November 2011**, reaching over ₹1.1M.
+   * Weekly analysis reveals a massive surge in **Week 49,** with revenue exceeding $400,000.
+  
 ---
 ## 🎓 Academic Information
 
@@ -202,7 +202,7 @@ If you have any questions or would like to collaborate on data analysis projects
 * **Author:** Prajwal Itnal
 * **GitHub:** [@PrajwalItnal](https://github.com/PrajwalItnal)
 * **LinkedIn:** [prajwal-itnal](https://www.linkedin.com/in/prajwal-itnal/)
-* **Email:** [PrajwalItnal20](prajwalitnal20@gmail.com)
+* **Email:** [prajwalitnal20@gmail.com](mailto:prajwalitnal20@gmail.com)
 
 ---
 *Developed as part of the BCA Specialization in Data Analysis.*
