@@ -55,28 +55,25 @@ Contains transactional records including invoice details, stock codes, quantitie
 ## 📂 Project Structure
 ---
 
+```text
 Online_Retail_Analysis_Main/
-├── Data/ # Dataset directory
-│ ├── OnlineRetail.xlsx # Raw dataset
-│ └── Cleaned_OnlineRetail.xlsx
-├── Scripts/ # Python modules
-│ ├── data_loading.py # Pandas loading logic
-│ ├── data_cleaning.py # Preprocessing logic
-│ ├── eda.py # Analysis logic
-│ └── insights.py # Business logic
-├── Output/ # Results
-│ └── Charts/ # Saved Visualizations
-├── Jupyter_Notebook/ # Experimental analysis
-│ └── FirstMainProjectRetail.ipynb
-├── main.py # Main execution entry point
-├── requirements.txt # List of dependencies
-└── README.md # Documentation
-
-yaml
-Copy code
-
+├── Data/                       # Dataset directory
+│   ├── OnlineRetail.xlsx       # Raw dataset
+│   └── Cleaned_OnlineRetail.xlsx
+├── Scripts/                    # Python modules
+│   ├── data_loading.py         # Pandas loading logic
+│   ├── data_cleaning.py        # Preprocessing logic
+│   ├── eda.py                  # Analysis logic
+│   └── insights.py             # Business logic
+├── Output/                     # Results
+│   └── Charts/                 # Saved Visualizations
+├── Jupyter_Notebook/           # Experimental analysis
+│   └── FirstMainProjectRetail.ipynb
+├── main.py                     # Main execution entry point
+├── requirements.txt            # List of dependencies
+└── README.md                   # Documentation
+```
 ---
-
 ## 🛠️ Technologies & Libraries
 ---
 
@@ -152,15 +149,15 @@ jupyter notebook
 ---
 ## 💡 Key Insights
 
-- **Market Leader:** The UK is the primary market, contributing over £7.3 Million
-- **Top International Performers:**
-    - Netherlands
-    - EIRE
-    - Germany
-    - France
-- **Growth Areas:**
-    - Saudi Arabia
-    - Czech Republic
+* **Market Leader:** The UK is the primary market, contributing over **£7.3 Million**.
+* **Top International Performers:**
+    * Netherlands
+    * EIRE
+    * Germany
+    * France
+* **Growth Areas:**
+    * Saudi Arabia
+    * Czech Republic
 
 ---
 ## 🎓 Academic Information
